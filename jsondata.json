@@ -1,0 +1,164 @@
+{
+  "id": "b6b4f9a7-80e6-4fea-aeab-c2588b1f7810",
+  "timestamp": "2016-10-15T11:30:47.726Z",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "4 days",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "date": {
+        "date": "2016-10-16"
+      },
+      "duration": {
+        "duration": {
+          "amount": 5,
+          "unit": "day"
+        }
+      },
+      "pax": {
+        "number": 200
+      },
+      "price": {
+        "number": 200
+      }
+    },
+    "contexts": [
+      {
+        "name": "standard_planning_complete",
+        "parameters": {
+          "date": {
+            "date": "2016-10-16",
+            "date.original": "Tomorrow"
+          },
+          "duration": {
+            "duration": {
+              "amount": 4,
+              "unit": "day"
+            },
+            "duration.original": "4 days"
+          },
+          "price.original": "200",
+          "pax.original": "200",
+          "date.original": "Tomorrow",
+          "pax": {
+            "number": 200,
+            "number.original": "200"
+          },
+          "price": {
+            "number": 200,
+            "number.original": "200"
+          },
+          "duration.original": "4 days"
+        },
+        "lifespan": 5
+      },
+      {
+        "name": "recommend_yes",
+        "parameters": {
+          "date": {
+            "date": "2016-10-16",
+            "date.original": "Tomorrow"
+          },
+          "duration": {
+            "duration": {
+              "amount": 4,
+              "unit": "day"
+            },
+            "duration.original": "4 days"
+          },
+          "price.original": "200",
+          "pax.original": "200",
+          "date.original": "Tomorrow",
+          "pax": {
+            "number": 200,
+            "number.original": "200"
+          },
+          "price": {
+            "number": 200,
+            "number.original": "200"
+          },
+          "duration.original": "4 days"
+        },
+        "lifespan": 0
+      },
+      {
+        "name": "planning_trip",
+        "parameters": {
+          "date": {
+            "date": "2016-10-16",
+            "date.original": "Tomorrow"
+          },
+          "duration": {
+            "duration": {
+              "amount": 4,
+              "unit": "day"
+            },
+            "duration.original": "4 days"
+          },
+          "origin.original": "Singapore",
+          "price.original": "200",
+          "pax.original": "200",
+          "date.original": "Tomorrow",
+          "pax": {
+            "number": 200,
+            "number.original": "200"
+          },
+          "price": {
+            "number": 200,
+            "number.original": "200"
+          },
+          "origin": {
+            "geo-city": "Singapore",
+            "geo-city.original": "Singapore"
+          },
+          "duration.original": "4 days"
+        },
+        "lifespan": 5
+      },
+      {
+        "name": "image_sent",
+        "parameters": {
+          "date": {
+            "date": "2016-10-16",
+            "date.original": "Tomorrow"
+          },
+          "duration": {
+            "duration": {
+              "amount": 4,
+              "unit": "day"
+            },
+            "duration.original": "4 days"
+          },
+          "price.original": "200",
+          "pax.original": "200",
+          "date.original": "Tomorrow",
+          "pax": {
+            "number": 200,
+            "number.original": "200"
+          },
+          "price": {
+            "number": 200,
+            "number.original": "200"
+          },
+          "duration.original": "4 days"
+        },
+        "lifespan": 5
+      }
+    ],
+    "metadata": {
+      "intentId": "8f6a7ff8-1d0c-47ce-a589-dc77dc2e4507",
+      "webhookUsed": "false",
+      "intentName": "Recommend Yes - Give Trip Info"
+    },
+    "fulfillment": {
+      "speech": ""
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "f77e8ea6-21c0-4309-bb88-ac069ee663ab"
+}
